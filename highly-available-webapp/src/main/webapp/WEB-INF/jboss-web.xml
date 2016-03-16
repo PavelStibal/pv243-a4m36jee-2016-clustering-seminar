@@ -16,4 +16,6 @@
         Session data is stored at this location: wildfly-10.0.0.Final/standalone/data/infinispan/web/default-host
     -->
 
+    <max-active-sessions>1</max-active-sessions>
+
 </jboss-web>
