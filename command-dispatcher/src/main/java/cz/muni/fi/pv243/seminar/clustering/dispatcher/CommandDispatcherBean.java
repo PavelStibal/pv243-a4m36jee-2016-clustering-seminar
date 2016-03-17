@@ -19,8 +19,6 @@ import javax.ejb.Startup;
 @Singleton
 public class CommandDispatcherBean {
 
-    // Note: no changes are required in this class, just inject an instance of this bean.
-
     @Resource(lookup = "java:jboss/clustering/dispatcher/server")
     private CommandDispatcherFactory factory;
 

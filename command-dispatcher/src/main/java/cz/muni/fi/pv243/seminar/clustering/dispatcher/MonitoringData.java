@@ -10,8 +10,6 @@ import java.io.Serializable;
 @Immutable
 public class MonitoringData implements Serializable {
 
-    // Note: nothing needed in this class but you can add more monitoring data if you would like.
-
     private long usedMemory;
     private long maxMemory;
 
